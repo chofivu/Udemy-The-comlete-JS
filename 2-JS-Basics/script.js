@@ -17,18 +17,21 @@ console.log(fullAge);
 var name = 'James';
 var age = 37;
 
-console.log(name + age);
-console.log(age + age);
+//console.log(name + age);
+//console.log(age + age);
 
 var job, isMarried;
 
-console.log(job);
+//console.log(job);
 
 job = 'spy';
 isMarried = false;
 
-console.log(name + '' + age + '' + job + '' + isMarried);
+console.log(name + ' is a ' + age + ' years old ' + job + '. Is he married? ' + isMarried + '.');
 
+age = 'thirty seven';
+job = 'driver';
 
+console.log(name + ' is a ' + age + ' years old ' + job + '. Is he married? ' + isMarried + '.');
 
 
