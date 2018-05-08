@@ -159,7 +159,7 @@ there can be draw. (both player with the same score)
 
 
 //SOLUTION:
-
+/*
 var player1age = 19;
 var player1height = 155;
 var player2age = 25;
@@ -168,7 +168,7 @@ var player2height = 188;
 var scorePlayer1 = player1height + 5 * player1age;
 var scorePlayer2 = player2height + 5 * player2age;
 
-/*
+
 if (scorePlayer1 > scorePlayer2){
     console.log('Player1 is a winner with ' + scorePlayer1 + ' points!')
 } else if (scorePlayer2 > scorePlayer1) {
@@ -176,7 +176,7 @@ if (scorePlayer1 > scorePlayer2){
 } else {
     console.log('It is a draw!');
 }
-*/
+
 
 var player3age = 30;
 var player3height = 173;
@@ -191,9 +191,38 @@ if (scorePlayer1 > scorePlayer2 && scorePlayer1 > scorePlayer3){
 } else {
     console.log('It\'s a draw!');
 }
+*/
+
+
+///////////////////////////////////////////////////////
+// lecture : Functions
+
+function calculateAge(yearOfBirth){
+    var age = 2018 - yearOfBirth;
+    return age;
+}
+
+var ageJohn = calculateAge(1990);
+var ageMike = calculateAge(1993);
+var ageMarly = calculateAge(2003);
 
 
 
+function yearsUntilRetirement(name, year){
+    var age = calculateAge(year);
+    var retirement = 65 - age;
+
+    if (retirement >= 0){
+        console.log(name + ' retires in ' + retirement + ' years.');
+    } else {
+    console.log(name + ' has alrady retired.');
+    }
+}
+
+
+yearsUntilRetirement('John', 1990);
+yearsUntilRetirement('Mike', 1956);
+yearsUntilRetirement('Marly', 1555);
 
 
 
