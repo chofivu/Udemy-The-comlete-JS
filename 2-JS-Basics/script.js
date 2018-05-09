@@ -193,7 +193,7 @@ if (scorePlayer1 > scorePlayer2 && scorePlayer1 > scorePlayer3){
 }
 */
 
-
+/*
 ///////////////////////////////////////////////////////
 // lecture : Functions
 
@@ -223,6 +223,29 @@ function yearsUntilRetirement(name, year){
 yearsUntilRetirement('John', 1990);
 yearsUntilRetirement('Mike', 1956);
 yearsUntilRetirement('Marly', 1555);
+*/
+
+
+////////////////////////////////////////////////////////////
+// lecture: Statements and expressions
+
+function someFun(par) {
+    //code
+}
+
+var someFun = function(par) {
+    //code
+}
+
+//Expressions
+3 + 4;
+var x = 3;
+
+//Statements
+if (x === 5){
+    //do something
+}
+
 
 
 
